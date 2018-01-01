@@ -1,0 +1,32 @@
+{
+  "name": "freecodecamp-codepen-datavis-heatmap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^4.12.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "tooltip.js": "^1.1.7"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eol": "^0.1.2",
+    "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1",
+    "npm-run-all": "^4.0.2",
+    "popper.js": "^1.12.9",
+    "react-scripts": "1.0.7",
+    "tether": "^1.4.0"
+  },
+  "scripts": {
+    "concat-js": "gulp concat-js",
+    "concat-js-watch": "gulp concat-js-watch",
+    "start-react": "react-scripts start",
+    "start": "npm-run-all -p concat-js-watch start-react",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

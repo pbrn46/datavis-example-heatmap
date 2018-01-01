@@ -1,0 +1,51 @@
+body {
+  background-color: #631;
+}
+
+.ChartContainerWrapper {
+  overflow: auto;
+}
+
+#ChartContainer {
+}
+
+svg {
+  border: 1px solid black;
+}
+
+svg .background {
+  fill: #fff;
+}
+
+svg .datapoint {
+  shape-rendering: crispEdges;
+}
+
+#ChartContainer {
+  text-align: center;
+}
+
+svg g.popup {
+  pointer-events: none;
+}
+
+svg rect.popup {
+  fill: #fff;
+  opacity: 0.73;
+}
+
+svg g.popup-texts text {
+  text-anchor: middle;
+}
+
+svg text.title {
+  font-size: 24px;
+}
+
+svg text.subtitle {
+  font-size: 12px;
+}
+
+svg text.subtitlerange {
+  font-size: 16px;
+}
